@@ -21,7 +21,8 @@ source(file = file.path("R_sources", "01_setup.R"))
       
       output_data_paths = list(
         merged_final_data = file.path("output_data", "clinical_lab_data.xlsx"),
-        updated_data_dictionary = file.path("output_data", "data_dictionary.xlsx")
+        updated_data_dictionary = file.path("output_data", "data_dictionary.xlsx"),
+        access_number_final = file.path("output_data", "access_number_final.xlsx")
       )), 
     
     data_constants = list(
