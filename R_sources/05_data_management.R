@@ -36,7 +36,7 @@ access_number <- readRDS("0_parsed_data.RDS")[["access_number"]] %>%
     date_1 = format_access_number_dates(access_number_1),
     date_2 = format_access_number_dates(access_number_2),
     date_3 = format_access_number_dates(access_number_3))
-write_xlsx(data_dictionary_final, path = .constants$file_paths$output_data_paths$updated_data_dictionary, col_names = TRUE)
+write_xlsx(data_dictionary_final, path = .constants$file_paths$output_data_paths$access_number_final, col_names = TRUE)
 
 
 # Addition to the dictionnary of the age of patient variable computed before.
